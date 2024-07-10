@@ -9,9 +9,6 @@ def even_number_of_evens(numbers):
     """
 
     if isinstance(numbers, list):
-        if numbers == []:
-            return False
-        else:
             evens = 0
 
         for n in numbers:
