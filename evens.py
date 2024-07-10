@@ -17,8 +17,12 @@ def even_number_of_evens(numbers):
         for n in numbers:
             if n % 2 == 0:
                 evens += 1
+        
+        if evens:
+            return evens % 2 == 0
+        else:
+            return False
 
-        return evens % 2 == 0
     else:
         raise TypeError("A list was not passed into the function")
 

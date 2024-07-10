@@ -42,3 +42,6 @@ followed by an underscore and a  descriptive name of what we’re testing.
 - Test for two even numbers --> would want it to pass
 - Create fail test for if only one even number is passed in
 - Need to  count the number of even numbers in the list and then check if that number itself is even
+- Create assert that adds odd number of odd numbers --> should be returning True when it is returning False (a True fail should return False)
+- Use a truthy  falsy value check of evens, so if evens is > 0 it will evaluate to True and False if it is 0 And within the if evens is greater than 0,  
+we can return evens % 2 == 0.
