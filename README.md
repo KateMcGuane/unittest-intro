@@ -40,3 +40,6 @@ followed by an underscore and a  descriptive name of what we’re testing.
 -  Add a check in our function  that checks if the value passed in is a list, and if it is, return True else raise a TypeError.
 - Test should test our function returns False if an empty list is passed in
 - Test for two even numbers --> would want it to pass
+- Create fail test for if only one even number is passed in
+- need to  count the number of even numbers in the list 
+and then check if that number itself is even
