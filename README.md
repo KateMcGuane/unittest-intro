@@ -12,12 +12,14 @@
 
 
 ## Notes
+
+### Python
 - When Python runs a file directly, it names it __main__ and any code beneath the if statement will only be run if the name of the file is __main__.
 So when we run the test file it will have the name __main__ and this code won't run.  
 But when we run this file it will have the name __main__ and it will run this code.
 
 
-### Unittest Notes
+### Unittest 
 - Unittest requires that our test  filename starts with the word ‘test’,  
 followed by an underscore and a  descriptive name of what we’re testing.
 - Does not need installation as it is part of the standard Python library.
@@ -26,12 +28,13 @@ followed by an underscore and a  descriptive name of what we’re testing.
 
 
 ## Steps
+
+### Set Up
 - Import the Unittest  module: 'import unittest' to test_file
 - Create test case -- via a class that passes unittest in as an argument
 - Write initial function
 - Import file with code into test_file
 
 
-
- test for is that  a TypeError is raised if a list is not passed into  
-the function when it’s called
+### Building a function using TDD
+-  Add a check in our function  that checks if the value passed in is a list, and if it is, return True else raise a TypeError.
